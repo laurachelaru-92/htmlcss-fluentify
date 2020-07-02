@@ -192,12 +192,6 @@ section.grey-subtitle {
   }
 /* fine sezione offerta formativa con 3 img */
 
-/* main > hr {
-  width: 90%;
-  margin: auto;
-  display: inline-block;
-} */
-
 /* sezione montagna-livello */
 section.montagna-livello .montagna-contenitore {
   width: 99%;
@@ -234,5 +228,55 @@ section.montagna-livello .montagna-contenitore {
   margin-top: 15px;
 }
 /* fine sezione montagna-livello */
-
 /* fine contenuto principale */
+
+/* footer */
+footer {
+  background-color: #D3D3D3;
+  padding: 50px 70px 0 70px;
+  position: relative;
+}
+
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer h2 {
+  float: left;
+}
+
+footer form {
+  float: right;
+  font-size: 15px;
+}
+
+footer form label {
+  color: #737373;
+  margin-left: 10px;
+}
+
+footer form select {
+  background-color: #D3D3D3;
+  color: #737373;
+  margin: 10px;
+  font-size: 15px;
+}
+
+footer form input,
+footer button {
+  background-color: #7CBB02;
+  color: #fff;
+  padding: 20px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+footer button {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+
+/* fine footer */
