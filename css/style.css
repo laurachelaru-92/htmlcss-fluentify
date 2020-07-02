@@ -5,12 +5,6 @@
   font-family: Lato, sans-serif;
 }
 
-.wrapper {
-  border: 2px solid red;
-  width: 90%;
-  margin: auto;
-}
-
 /* testata */
 
 /* barra di navigazione */
@@ -196,4 +190,9 @@ section.grey-subtitle {
     color: #878787;
   }
 /* fine sezione offerta formativa con 3 img */
+main > hr {
+  width: 90%;
+  text-align: center;
+  display: inline-block;
+}
 /* fine contenuto principale */
