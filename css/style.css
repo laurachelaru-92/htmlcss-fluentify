@@ -121,20 +121,79 @@ header .banner button {
 /* fine testata */
 
 /* contenuto principale */
-.grey-subtitle {
+/* sottotitolo grigio */
+section.grey-subtitle {
   background-color: #D3D3D3;
   text-align: center;
   padding: 40px 0;
 }
 
-h3 {
+.grey-subtitle h3 {
   font-size: 25px;
   margin-bottom: 10px;
 }
 
-h5 {
+.grey-subtitle h5 {
   font-size: 18px;
   color: #878787;
+  font-weight: 400;
 }
+/* fine sottotitolo grigio */
 
+/* sezione offerta formativa con 3 img */
+  section.offerta-formativa {
+    text-align: center;
+  }
+
+  .contenitore-formazioni {
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+  }
+
+  .contenitore-formazioni::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .formazione {
+    width: calc(100% / 3);
+    padding: 30px;
+    float: left;
+  }
+
+  .formazione:first-child img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .formazione:nth-child(2) img {
+    width: 160px;
+    margin-bottom: 30px;
+  }
+
+  .formazione:nth-child(3) img {
+    width: 130px;
+    margin-bottom: 10px;
+  }
+
+  .formazione h3 {
+    font-size: 20px;
+    color: #7CBB02;
+  }
+
+  .formazione hr {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
+  }
+
+  .formazione p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #878787;
+  }
+/* fine sezione offerta formativa con 3 img */
 /* fine contenuto principale */
