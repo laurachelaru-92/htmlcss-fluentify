@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+.wrapper {
+  border: 2px solid red;
+}
+
+/* testata */
+
+/* barra di navigazione */
+header nav {
+  background-color: #0C325A;
+  line-height: 70px;
+  font-size: 10px;
+}
+
+header nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+header nav .list-left a,
+header nav .list-right a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+header nav .list-left {
+  float: left;
+  width: 49%;
+}
+
+header nav .logo {
+  float: left;
+  width: 15%;
+  position: relative;
+  text-align: center;
+  margin: 0 2%
+}
+
+header nav .logo a {
+  position: relative;
+  top: 10px;
+}
+
+header nav .list-right {
+  float: right;
+  width: 30%;
+  height: 100%;
+}
+
+header button {
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: inherit;
+  border: none;
+}
+
+header button[name="login"] {
+  padding: 10px 30px;
+  background-color: rgba(0,0,0,0);
+  border: 2px solid white;
+}
+
+nav button[name="piano"] {
+  padding: 10px;
+  background-color: #7CBB02;
+}
+/* fine barra di navigazione */
+
+/* banner */
+header .banner {
+  height: 300px;
+  position: relative;
+  background-color: #0C325A;
+  background-image: url(../img/background-header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+header .banner .titolo {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+header .banner .titolo h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+header .banner button {
+  background-color: #7CBB02;
+  padding: 20px 15px;
+}
+
+/* fine banner */
+
+/* fine testata */
