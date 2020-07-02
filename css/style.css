@@ -7,6 +7,8 @@
 
 .wrapper {
   border: 2px solid red;
+  width: 90%;
+  margin: auto;
 }
 
 /* testata */
@@ -43,7 +45,7 @@ header nav .list-right a{
 
 header nav .list-left {
   float: left;
-  width: 49%;
+  width: 39%;
 }
 
 header nav .logo {
@@ -61,7 +63,7 @@ header nav .logo a {
 
 header nav .list-right {
   float: right;
-  width: 30%;
+  width: 40%;
   height: 100%;
 }
 
@@ -88,17 +90,17 @@ nav button[name="piano"] {
 
 /* banner */
 header .banner {
-  height: 300px;
+  height: 400px;
   position: relative;
   background-color: #0C325A;
   background-image: url(../img/background-header.png);
-  background-size: contain;
+  background-size: 70% auto;
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
 header .banner .titolo {
-  width: 40%;
+  width: 35%;
   position: absolute;
   top: 50%;
   left: 10%;
@@ -108,14 +110,31 @@ header .banner .titolo {
 header .banner .titolo h1 {
   font-size: 40px;
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 header .banner button {
   background-color: #7CBB02;
   padding: 20px 15px;
 }
-
 /* fine banner */
-
 /* fine testata */
+
+/* contenuto principale */
+.grey-subtitle {
+  background-color: #D3D3D3;
+  text-align: center;
+  padding: 40px 0;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 18px;
+  color: #878787;
+}
+
+/* fine contenuto principale */
