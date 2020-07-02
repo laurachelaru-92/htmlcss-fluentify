@@ -184,15 +184,55 @@ section.grey-subtitle {
     margin: 10px 0;
   }
 
-  .formazione p {
+  .formazione p,
+  .blocco-testo p {
     font-size: 13px;
     font-weight: bold;
     color: #878787;
   }
 /* fine sezione offerta formativa con 3 img */
-main > hr {
+
+/* main > hr {
   width: 90%;
-  text-align: center;
+  margin: auto;
   display: inline-block;
+} */
+
+/* sezione montagna-livello */
+section.montagna-livello .montagna-contenitore {
+  width: 99%;
+  border-top: 1px solid #d9d9d9;
+  margin: auto;
+  padding: 0 150px;
 }
+
+.montagna-livello .montagna-contenitore::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.montagna-livello img {
+  width: 40%;
+  margin: 40px;
+  float: left;
+}
+
+.montagna-livello .blocco-testo {
+  float: left;
+  margin: 30px 50px;
+  width: 30%;
+}
+
+.blocco-testo h2 {
+  margin-bottom: 10px;
+}
+
+.blocco-testo a  {
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 15px;
+}
+/* fine sezione montagna-livello */
+
 /* fine contenuto principale */
