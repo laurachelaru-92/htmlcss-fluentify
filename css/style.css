@@ -5,6 +5,10 @@
   font-family: Lato, sans-serif;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+}
 /* testata */
 
 /* barra di navigazione */
@@ -39,15 +43,12 @@ header nav .list-right a{
 
 header nav .list-left {
   float: left;
-  width: 39%;
+  width: 40%;
 }
 
 header nav .logo {
   float: left;
   width: 15%;
-  position: relative;
-  text-align: center;
-  margin: 0 2%
 }
 
 header nav .logo a {
@@ -58,7 +59,11 @@ header nav .logo a {
 header nav .list-right {
   float: right;
   width: 40%;
-  height: 100%;
+  text-align: right;
+}
+
+button {
+  font-family: Lato, sans-serif;
 }
 
 header button {
@@ -76,7 +81,7 @@ header button[name="login"] {
   border: 2px solid white;
 }
 
-nav button[name="piano"] {
+button[name="piano"] {
   padding: 10px;
   background-color: #7CBB02;
 }
@@ -88,9 +93,9 @@ header .banner {
   position: relative;
   background-color: #0C325A;
   background-image: url(../img/background-header.png);
-  background-size: 70% auto;
+  background-size: 65% auto;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: 110% 100%;
 }
 
 header .banner .titolo {
@@ -108,7 +113,6 @@ header .banner .titolo h1 {
 }
 
 header .banner button {
-  background-color: #7CBB02;
   padding: 20px 15px;
 }
 /* fine banner */
@@ -135,17 +139,7 @@ section.grey-subtitle {
 /* fine sottotitolo grigio */
 
 /* sezione offerta formativa con 3 img */
-  section.offerta-formativa {
-    text-align: center;
-  }
-
-  .contenitore-formazioni {
-    display: inline-block;
-    width: 80%;
-    margin: auto;
-  }
-
-  .contenitore-formazioni::after {
+  .container::after {
     content: "";
     display: table;
     clear: both;
@@ -155,6 +149,7 @@ section.grey-subtitle {
     width: calc(100% / 3);
     padding: 30px;
     float: left;
+    text-align: center;
   }
 
   .formazione:first-child img {
@@ -175,13 +170,14 @@ section.grey-subtitle {
   .formazione h3 {
     font-size: 20px;
     color: #7CBB02;
+    height: 50px;
   }
 
   .formazione hr {
     width: 20%;
     text-align: center;
     display: inline-block;
-    margin: 10px 0;
+    margin: 20px 0;
   }
 
   .formazione p,

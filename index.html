@@ -11,31 +11,35 @@
     <header>
       <!-- barra di navigazione -->
       <nav>
-        <div class="logo">
-          <a href="#"><img src="img/logo.svg" alt="logo"></a>
-        </div>
-        <div class="list-left">
-          <ul>
-            <li><a href="#">il metodo</a></li>
-            <li><a href="#">la tecnologia</a></li>
-            <li><a href="#">real-life english</a></li>
-            <li><a href="#">soluzioni aziendali</a></li>
-          </ul>
-        </div>
-        <div class="list-right">
-          <ul>
-            <li><a href="#">diventa un tutor</a></li>
-            <li><button type="button" name="login">login</button></li>
-            <li><button type="button" name="piano">struttura un piano</button></li>
-          </ul>
+        <div class="container">
+          <div class="logo">
+            <a href="#"><img src="img/logo.svg" alt="logo"></a>
+          </div>
+          <div class="list-left">
+            <ul>
+              <li><a href="#">il metodo</a></li>
+              <li><a href="#">la tecnologia</a></li>
+              <li><a href="#">real-life english</a></li>
+              <li><a href="#">soluzioni aziendali</a></li>
+            </ul>
+          </div>
+          <div class="list-right">
+            <ul>
+              <li><a href="#">diventa un tutor</a></li>
+              <li><button type="button" name="login">login</button></li>
+              <li><button type="button" name="piano">struttura un piano</button></li>
+            </ul>
+          </div>
         </div>
       </nav>
       <!-- / barra di navigazione -->
       <!-- banner -->
       <div class="banner">
-        <div class="titolo">
-          <h1>Scegli l'inglese studiato per i professionisti</h1>
-          <button type="button" name="piano">struttura un piano</button>
+        <div class="container">
+          <div class="titolo">
+            <h1>Scegli l'inglese studiato per i professionisti</h1>
+            <button type="button" name="piano">struttura un piano</button>
+          </div>
         </div>
       </div>
       <!-- / banner -->
@@ -51,7 +55,7 @@
       <!-- / sezione sottotitolo grigio -->
       <!-- sezione offerta formativa con 3 img -->
       <section class="offerta-formativa">
-        <div class="contenitore-formazioni">
+        <div class="container">
           <div class="formazione left ">
             <img src="img/profile.svg" alt="immagine costruzione profilo">
             <h3>Piano formativo configurato sul proprio livello</h3>
@@ -93,7 +97,7 @@
       <form class="" action="index.html" method="post">
         <label for="occupazione">Sono</label>
         <select name="occupazione" id="occupazione">
-          <option value="">Seleziona</option>
+          <option value="select" disabled selected>Seleziona</option>
           <option value="studente">Studente</option>
           <option value="occupato">Occupato</option>
           <option value="disoccupato">Disoccupato</option>
